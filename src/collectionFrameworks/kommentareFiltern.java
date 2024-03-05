@@ -20,7 +20,7 @@ public class kommentareFiltern {
 	
 	public static void main (String[]args) {
 		
-		List<String> eintrag = new ArrayList<String>;
+		List<String> eintrag = new ArrayList<String>();
 		eintrag.add("A1");
 		eintrag.add("A2");
 		eintrag.add("A3");
