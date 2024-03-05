@@ -20,26 +20,26 @@ public class kommentareFiltern {
 	
 	public static void main (String[]args) {
 		
-		List<String> entries = new ArrayList<String>();
-		entries.add("A1");
-		entries.add("A2");
-		entries.add("A3");
-		entries.add("A4");
-		entries.add("B1");
-		entries.add("B2");
-		entries.add("B3");
-		entries.add("B4");
-		entries.add("C1");
-		entries.add("C2");
-		entries.add("C3");
-		entries.add("C4");
-		entries.add("A4");
-		entries.add("B4");
-		entries.add("C4");
+		List<String> eintrag = new ArrayList<String>;
+		eintrag.add("A1");
+		eintrag.add("A2");
+		eintrag.add("A3");
+		eintrag.add("A4");
+		eintrag.add("B1");
+		eintrag.add("B2");
+		eintrag.add("B3");
+		eintrag.add("B4");
+		eintrag.add("C1");
+		eintrag.add("C2");
+		eintrag.add("C3");
+		eintrag.add("C4");
+		eintrag.add("A4");
+		eintrag.add("B4");
+		eintrag.add("C4");
 		
 		  try {
-	            reduceToComments(entries);
-	            System.out.println(entries);
+	            reduceToComments(eintrag);
+	            System.out.println(eintrag);
 	        } catch (IllegalArgumentException e) {
 	            System.out.println(e.getMessage());
 	        }
